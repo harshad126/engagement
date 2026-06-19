@@ -471,9 +471,14 @@
 
     <!-- Beautiful cinematic romantic instrumental background track -->
     <audio id="bg-music" loop preload="auto">
-        <!-- Highly available and CORS-unrestricted classical masterpieces -->
+        <!-- Priority 1: Your own custom uploaded song inside your GitHub folder (Recommended) -->
+        <source src="engagement-song.mp3" type="audio/mpeg">
+        
+        <!-- Priority 2: Premium Indian Bansuri Flute Instrumental (Elegant Wedding Theme) -->
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        
+        <!-- Priority 3: Romantic Classical Fallback -->
         <source src="https://archive.org/download/100ClassicalMusicMasterpieces/1698%20Pachelbel%20%2C%20Canon%20in%20D.mp3" type="audio/mpeg">
-        <source src="https://archive.org/download/100ClassicalMusicMasterpieces/1727%20Bach%20%2C%20Air%20%28from%20Orchestral%20Suite%20No.%203%20in%20D%29.mp3" type="audio/mpeg">
     </audio>
 
     <div class="phone-container" id="app-wrapper">
